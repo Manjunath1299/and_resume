@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: Roboto Mono;
+    background-color: #ffffff;
+    width: 90%;
+    color: #222222;
+    overflow-wrap: break-word;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+.left_header {
+    width: 30%;
+}
+
+.left_header img {
+    /* margin:200px; */
+    padding: 10px;
+    width: 90%;
+    height: 300px;
+    border-radius: 50%;
+    padding: 7%;
+}
+
+.right_header {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 15px;
+    background-color: #d87777;
+    color: #ffffff
+}
+
+/* about, education */
+section {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 25% 75%;
+    margin-bottom: 2%;
+
+}
+
+.about {
+    width: 100%;
+    align-self: center;
+    padding-inline: 5%;
+}
+
+.education {
+    width: 100%;
+}
+
+.location {
+    display: grid;
+    grid-template-rows: 50% 30% 30%;
+}
+
+.edu {
+    display: grid;
+    grid-template-columns: 70% auto;
+
+}
+
+.edu div:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.edu div:nth-child(even) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-left: 5%;
+}
+
+/* skills, experience */
+.skiils_ex {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.skills {
+    padding-inline: 5%;
+}
+
+.exp_details {
+    display: grid;
+    grid-template-rows: 45% 45%;
+}
+
+.exp_block {
+    display: grid;
+    grid-template-rows: 28% 28% auto;
+    align-items: start;
+}
+
+.loc_exp {
+    /* margin-bottom:15px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* projects, strengths */
+.str_pro {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.strength {
+    padding-inline: 5%;
+}
+
+/* certifications,languagues */
+.cer_lan {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.languages {
+    padding-inline: 5%;
+}
+
